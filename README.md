@@ -1,4 +1,4 @@
-# EXAMPLE ver.01 API 문서
+# JPABoard ver.01 API 문서
 
 # ARTICLE (게시글)
 
@@ -6,7 +6,7 @@
 ### ※ REQUEST
 - 설명 : 게시글 등록 API
 - 요청 메서드 : POST
-- 엔드포인트 : /example/article
+- 엔드포인트 : /jpaboard/article
 
 | 필드 | 타입     | 필수  | 설명        |
 |---|--------|-----|-----------|
@@ -34,7 +34,7 @@
 ### ※ REQUEST
 - 설명 : 게시글 상세 조회 API
 - 요청 메서드 : GET
-- 엔드포인트 : /example/article/{articleId}
+- 엔드포인트 : /jpaboard/article/{articleId}
 
 | 파라미터 | 타입   | 필수  | 설명      |
 |---|------|-----|---------|
@@ -73,7 +73,7 @@
 ### ※ REQUEST
 - 설명 : 게시글 목록 조회 및 검색 API (페이징 포함)
 - 요청 메서드 : GET
-- 엔드포인트 : /example/article
+- 엔드포인트 : /jpaboard/article
 
 | 파라미터 | 타입 | 필수 | 기본값 | 설명 |
 |---|---|---|---|---|
@@ -127,7 +127,7 @@
 ### ※ REQUEST
 - 설명 : 게시글 수정 API
 - 요청 메서드 : PATCH
-- 엔드포인트 : /example/article/{articleId}
+- 엔드포인트 : /jpaboard/article/{articleId}
 
 | 파라미터 | 타입 | 필수 | 설명 |
 |---|---|---|---|
@@ -161,7 +161,7 @@ true
 ### ※ REQUEST
 - 설명 : 게시글 삭제 API
 - 요청 메서드 : DELETE
-- 엔드포인트 : /example/article/{articleId}
+- 엔드포인트 : /jpaboard/article/{articleId}
 
 | 파라미터 | 타입 | 필수 | 설명 |
 |---|---|---|---|
